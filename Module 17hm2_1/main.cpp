@@ -25,4 +25,6 @@ int main()
 	str1.display();
 	str2.display();
 	std::cout << "Total String objects at the end: " << String::getObjectCount() << std::endl;
+
+	return 0;
 }
